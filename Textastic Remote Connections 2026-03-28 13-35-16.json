@@ -1,0 +1,35 @@
+{
+  "format": "com.textasticapp.remote-connections",
+  "version": 1,
+  "exportedAt": "2026-03-28T13:35:16-05:00",
+  "secrets": {
+    "v": 1,
+    "s": "ULxZN1bV2k/9yHi/xpN69w=="
+  },
+  "connections": [
+    {
+      "type": "ftp",
+      "id": "611C0791-1800-48A2-A80D-171CBC10A444",
+      "title": "",
+      "protocol": "sftp",
+      "host": "192.168.1.254",
+      "port": 22,
+      "userEncrypted": "bmzy1G9WeyO280PO2hxYvE9+ofq2szfJYFAP2lxwA99DANBTcHVVBwlYSfCVegAhYFd+GDk/zJSo69EEfLU=",
+      "passwordEncrypted": "PEu+Jl6AmIw8DZ6YMyuJPQY7jGj8Aj4vwyeWLOsVA3lFmTLySk3Nf48bnGhX0MzXYls69jZ3I95BypTcHrc=",
+      "askForPassword": false,
+      "path": "",
+      "encoding": "utf-8",
+      "concurrentConnections": 3,
+      "debugLog": false,
+      "showHiddenFiles": false,
+      "passiveMode": true,
+      "disableEPSV_EPRT": false,
+      "verifySSLCertificate": true,
+      "sslMode": 0,
+      "tlsMin": 0,
+      "tlsMax": 0,
+      "usePublicKeyAuth": true,
+      "privateKeyFile": "/ssh/id_rsa"
+    }
+  ]
+}
