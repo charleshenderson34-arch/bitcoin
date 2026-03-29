@@ -1,0 +1,61 @@
+{
+	Name = "System Profiler suite";
+	Description = "System Profiler specific classes.";
+	Classes = {
+		NSApplication = {
+			Name = application;
+			PluralName = applications;
+			Description = "System Profiler top level scripting object.";
+			Attributes = {
+				systemProfile = {
+					Name = "system profile";
+					Description = "Plain text representation of a system profile for the current machine.";
+				};
+			};
+		};
+		SPDocument = {
+			Name = document;
+			PluralName = documents;
+			Description = "A system profile document.";
+			Attributes = {
+				"plainTextRepresentation" = {
+					Name = (
+						"plain text",
+						profile,
+					);
+					Description = "Plain text representation of the system profile document.";
+				};
+				"xmlPropertyListRepresentation" = {
+					Name = "XML text";
+					Description = "XML representation of the system profile document.";
+				};
+				detailLevel = {
+					Name = "detail level";
+					Description = "The desired level of detail for the system profile document.";
+				};
+			};
+		};
+	};
+	Commands = {
+		upload = {
+			Name = send;
+			Description = "Send to AppleCare";
+		};
+	};
+	Enumerations = {
+		DetailLevels = {
+			mini = {
+				Name = mini;
+				Description = "A compact profile which does not include any personal identifying information";
+			};
+			basic = {
+				Name = basic;
+				Description = "A version which includes the basic hardware, software and network information. Moderate in size.";
+			};
+			full = {
+				Name = full;
+				Description = "A profile which includes all available information - can be quite large";
+			};
+		};
+	};
+}
