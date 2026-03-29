@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>AbstractClass</key>
+		<dict>
+			<key>Attributes</key>
+			<dict/>
+			<key>Description</key>
+			<string>A class</string>
+			<key>Name</key>
+			<string>class</string>
+		</dict>
+		<key>NSApplication</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>selection</key>
+				<dict>
+					<key>Description</key>
+					<string>The current selection.</string>
+					<key>Name</key>
+					<string>selection</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Script Editor's top level scripting object.</string>
+			<key>Name</key>
+			<string>application</string>
+			<key>PluralName</key>
+			<string>applications</string>
+		</dict>
+		<key>NSWindow</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>title</key>
+				<dict>
+					<key>Description</key>
+					<string>The full title of the window.</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A window.</string>
+			<key>Name</key>
+			<string>window</string>
+		</dict>
+		<key>OSALanguage</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>info</key>
+				<dict>
+					<key>Description</key>
+					<string>The description</string>
+					<key>Name</key>
+					<string>description</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>The name of the language.</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>supportsCompiling</key>
+				<dict>
+					<key>Description</key>
+					<string>Is the language compilable?</string>
+					<key>Name</key>
+					<string>supports compiling</string>
+				</dict>
+				<key>supportsRecording</key>
+				<dict>
+					<key>Description</key>
+					<string>Is the language recordable?</string>
+					<key>Name</key>
+					<string>supports recording</string>
+				</dict>
+				<key>uniqueID</key>
+				<dict>
+					<key>Description</key>
+					<string>The unique id of the language.</string>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A scripting language.</string>
+			<key>Name</key>
+			<string>language</string>
+			<key>PluralName</key>
+			<string>languages</string>
+		</dict>
+		<key>SEDocument</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>contents</key>
+				<dict>
+					<key>Description</key>
+					<string>The contents of the document.</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+				<key>descriptionTextStorage</key>
+				<dict>
+					<key>Description</key>
+					<string>The description of the document.</string>
+					<key>Name</key>
+					<string>description</string>
+				</dict>
+				<key>eventLog</key>
+				<dict>
+					<key>Description</key>
+					<string>The event log of the document.</string>
+					<key>Name</key>
+					<string>event log</string>
+				</dict>
+				<key>language</key>
+				<dict>
+					<key>Description</key>
+					<string>The scripting language.</string>
+					<key>Name</key>
+					<string>language</string>
+				</dict>
+				<key>selection</key>
+				<dict>
+					<key>Description</key>
+					<string>The current selection.</string>
+					<key>Name</key>
+					<string>selection</string>
+				</dict>
+				<key>textStorage</key>
+				<dict>
+					<key>Description</key>
+					<string>The text of the document.</string>
+					<key>Name</key>
+					<string>text</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A script document.</string>
+			<key>Name</key>
+			<string>document</string>
+			<key>PluralName</key>
+			<string>documents</string>
+		</dict>
+		<key>SEInsertionPoint</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>contents</key>
+				<dict>
+					<key>Description</key>
+					<string>The contents of the insertion point.</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>An insertion point between two objects.</string>
+			<key>Name</key>
+			<string>insertion point</string>
+			<key>PluralName</key>
+			<string>insertion points</string>
+		</dict>
+		<key>SEScriptTextStorage</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>fontName</key>
+				<dict>
+					<key>Description</key>
+					<string>The name of the font of the first character.</string>
+					<key>Name</key>
+					<string>font</string>
+				</dict>
+				<key>fontSize</key>
+				<dict>
+					<key>Description</key>
+					<string>The size in points of the first character.</string>
+					<key>Name</key>
+					<string>size</string>
+				</dict>
+				<key>foregroundColor</key>
+				<dict>
+					<key>Description</key>
+					<string>The color of the first character.</string>
+					<key>Name</key>
+					<string>color</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Rich (styled) text</string>
+			<key>Name</key>
+			<string>text</string>
+			<key>PluralName</key>
+			<string>text</string>
+		</dict>
+		<key>SETextSelection</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>characterRange</key>
+				<dict>
+					<key>Description</key>
+					<string>The range of characters in the selection.</string>
+					<key>Name</key>
+					<string>character range</string>
+				</dict>
+				<key>contents</key>
+				<dict>
+					<key>Description</key>
+					<string>The contents of the selection.</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A way to refer to the state of the current selection.</string>
+			<key>Name</key>
+			<string>selection-object</string>
+		</dict>
+	</dict>
+	<key>Commands</key>
+	<dict>
+		<key>CheckSyntax</key>
+		<dict>
+			<key>Description</key>
+			<string>Check the syntax of a document.</string>
+			<key>Name</key>
+			<string>check syntax</string>
+		</dict>
+		<key>Compile</key>
+		<dict>
+			<key>Description</key>
+			<string>Compile the script of a document.</string>
+			<key>Name</key>
+			<string>compile</string>
+		</dict>
+		<key>Save</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>File</key>
+				<dict>
+					<key>Description</key>
+					<string>The file in which to save the object.</string>
+					<key>Name</key>
+					<string>in</string>
+				</dict>
+				<key>FileType</key>
+				<dict>
+					<key>Description</key>
+					<string>The file type in which to save the data. Use one of the following strings: "script", "script bundle", "application", "text".</string>
+					<key>Name</key>
+					<string>as</string>
+				</dict>
+				<key>RunOnly</key>
+				<dict>
+					<key>Description</key>
+					<string>Should the script be saved as Run-Only? If it is, you will not be able to edit the contents of the script again. The default is not to save as run only. (Applies to all script types except for "text").</string>
+					<key>Name</key>
+					<string>run only</string>
+				</dict>
+				<key>StartupScreen</key>
+				<dict>
+					<key>Description</key>
+					<string>Show the startup screen? The default is not to show the startup screen. (Only applies to scripts saved as "application").</string>
+					<key>Name</key>
+					<string>startup screen</string>
+				</dict>
+				<key>StayOpen</key>
+				<dict>
+					<key>Description</key>
+					<string>Should the application remain open after it is launched? The default is not to stay open. (Only applies to scripts saved as "application").</string>
+					<key>Name</key>
+					<string>stay open</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Save an object.</string>
+			<key>Name</key>
+			<string>save</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Classes and Commands for working with the Script Editor</string>
+	<key>Name</key>
+	<string>Script Editor Suite</string>
+</dict>
+</plist>
