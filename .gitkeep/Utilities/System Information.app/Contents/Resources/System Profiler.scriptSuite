@@ -1,0 +1,65 @@
+{
+    "Name" = "System Profiler";
+    "AppleEventCode" = "ddap";
+    
+    "Classes" = {
+        "NSApplication" = {
+            "Superclass" = "NSCoreSuite.NSApplication";
+            "AppleEventCode" = "capp";
+            "ToManyRelationships" = {
+                "orderedDocuments" = {
+                    "Type" = "SPDocument";
+                    "AppleEventCode" = "docu";
+                };
+            };
+            "Attributes" = {
+                "systemProfile" = {
+                    "Type" = "NSString";
+                    "AppleEventCode" = "ddty";
+					"ReadOnly" = YES;
+                };
+            };
+        };
+        "SPDocument" = {
+            "Superclass" = "NSCoreSuite.NSDocument";
+            "AppleEventCode" = "docu";
+            "Attributes" = {
+                "plainTextRepresentation" = {
+                    "Type" = "NSString";
+					"ReadOnly" = YES;
+                    "AppleEventCode" = "ddta";
+                };
+				"xmlPropertyListRepresentation" = {
+					"Type" = "NSString";
+					"ReadOnly" = YES;
+					"AppleEventCode" = "dxml";
+				};
+				"detailLevel" = {
+					"Type" = "NSNumber<DetailLevels>";
+					"AppleEventCode" = "ddtl";
+				};
+            };
+			"SupportedCommands" = {
+				upload = "handleUploadCommand:";
+			};
+        };
+	};
+	
+	Commands = {
+		"upload" = {
+			AppleEventCode = "spul";
+			CommandClass = "NSScriptCommand";
+		};
+	};
+	
+	Enumerations = {
+		"DetailLevels" = {
+			AppleEventCode = "edtl";
+			Enumerators = {
+				mini = "mini";
+				basic = "basi";
+				full = "full";
+			};
+		};
+	};
+}
