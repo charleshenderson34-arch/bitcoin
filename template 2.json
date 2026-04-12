@@ -1,0 +1,22 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "dnsZoneName": {
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Network/dnsZones",
+            "apiVersion": "2023-07-01-preview",
+            "name": "[parameters('dnsZoneName')]",
+            "location": "global",
+            "dependsOn": [],
+            "properties": {},
+            "resources": []
+        }
+    ],
+    "outputs": {}
+}
