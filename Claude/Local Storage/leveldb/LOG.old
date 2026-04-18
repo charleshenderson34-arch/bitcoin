@@ -1,0 +1,21 @@
+2026/04/18-08:15:03.403 2a0f86 Reusing MANIFEST /Users/charleshenderson/Library/Application Support/Claude/Local Storage/leveldb/MANIFEST-000001
+2026/04/18-08:15:03.413 2a0f86 Recovering log #497
+2026/04/18-08:15:03.418 2a0f86 Level-0 table #499: started
+2026/04/18-08:15:03.654 2a0f86 Level-0 table #499: 477501 bytes OK
+2026/04/18-08:15:03.655 2a0f86 Recovering log #498
+2026/04/18-08:15:03.660 2a0f86 Level-0 table #500: started
+2026/04/18-08:15:03.801 2a0f86 Level-0 table #500: 477131 bytes OK
+2026/04/18-08:15:04.155 2a0f86 Delete type=0 #498
+2026/04/18-08:15:04.155 2a0f86 Delete type=0 #497
+2026/04/18-08:16:04.169 2a0f86 Level-0 table #503: started
+2026/04/18-08:16:04.375 2a0f86 Level-0 table #503: 477471 bytes OK
+2026/04/18-08:16:04.824 2a0f86 Delete type=0 #501
+2026/04/18-08:16:04.825 2a0f86 Compacting 4@0 + 1@1 files
+2026/04/18-08:16:05.042 2a0f86 Generated table #504@0: 29 keys, 479960 bytes
+2026/04/18-08:16:05.042 2a0f86 Compacted 4@0 + 1@1 files => 479960 bytes
+2026/04/18-08:16:05.485 2a0f86 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/18-08:16:05.485 2a0f86 Delete type=2 #499
+2026/04/18-08:16:05.485 2a0f86 Delete type=2 #500
+2026/04/18-08:16:05.485 2a0f86 Delete type=2 #503
+2026/04/18-08:16:05.485 2a0f86 Delete type=2 #496
+2026/04/18-08:16:05.486 2a0f86 Delete type=2 #494
