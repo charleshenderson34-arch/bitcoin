@@ -1,0 +1,27 @@
+2026/04/18-08:16:30.097 2a170e Reusing MANIFEST /Users/charleshenderson/Library/Application Support/Claude/Local Storage/leveldb/MANIFEST-000001
+2026/04/18-08:16:30.098 2a170e Recovering log #502
+2026/04/18-08:16:30.098 2a170e Reusing old log /Users/charleshenderson/Library/Application Support/Claude/Local Storage/leveldb/000502.log 
+2026/04/18-08:17:30.100 2a170e Level-0 table #507: started
+2026/04/18-08:17:30.285 2a170e Level-0 table #507: 477482 bytes OK
+2026/04/18-08:17:30.452 2a170e Delete type=0 #502
+2026/04/18-08:18:31.130 2a170e Level-0 table #509: started
+2026/04/18-08:18:31.311 2a170e Level-0 table #509: 477438 bytes OK
+2026/04/18-08:18:31.684 2a170e Delete type=0 #506
+2026/04/18-08:23:31.108 2a170e Level-0 table #511: started
+2026/04/18-08:23:31.745 2a170e Level-0 table #511: 477909 bytes OK
+2026/04/18-08:23:33.884 2a170e Delete type=0 #508
+2026/04/18-09:02:30.960 2a170e Level-0 table #513: started
+2026/04/18-09:02:31.070 2a170e Level-0 table #513: 18048 bytes OK
+2026/04/18-09:02:31.212 2a170e Delete type=0 #510
+2026/04/18-09:02:31.278 2a170e Compacting 4@0 + 1@1 files
+2026/04/18-09:02:31.462 2a170e Generated table #514@0: 29 keys, 479878 bytes
+2026/04/18-09:02:31.462 2a170e Compacted 4@0 + 1@1 files => 479878 bytes
+2026/04/18-09:02:31.645 2a170e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/18-09:02:31.646 2a170e Delete type=2 #507
+2026/04/18-09:02:31.646 2a170e Delete type=2 #513
+2026/04/18-09:02:31.646 2a170e Delete type=2 #511
+2026/04/18-09:02:31.646 2a170e Delete type=2 #504
+2026/04/18-09:02:31.646 2a170e Delete type=2 #509
+2026/04/18-09:41:30.840 2a170e Level-0 table #516: started
+2026/04/18-09:41:30.946 2a170e Level-0 table #516: 18057 bytes OK
+2026/04/18-09:41:31.121 2a170e Delete type=0 #512
