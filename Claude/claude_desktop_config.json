@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "sentio-api": {
+      "command": "node",
+    "args": [
+      "/Users/charleshenderson/sentio-mcp/build/cli.js",
+      "--api-key",
+      "wWgRafvjKIlvjF3c57CAriWlXFM1vAD8w"],
+    "paths": [
+      "/usr/local/bin",
+      "/Users/charleshenderson/Library/pnpm",
+      "/usr/bin",
+      "/bin",
+      "/usr/sbin",
+      "/sbin"],
+  }
+}
